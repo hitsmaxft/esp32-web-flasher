@@ -21,6 +21,7 @@ button:disabled { cursor: not-allowed; opacity: .45; }
 .download[hidden] { display: none; }
 button[hidden] { display: none; }
 .field { display: block; margin: 12px 0; color: #375760; font-size: .88rem; font-weight: 700; }
+.field[hidden], .details[hidden] { display: none; }
 .field input, .field select { display: block; width: 100%; margin-top: 7px; padding: 11px 12px; border: 1px solid #bfd1ca; border-radius: 9px; background: #fff; color: #102c38; font: inherit; font-weight: 400; }
 .file-picker input { position: absolute; width: 1px; height: 1px; opacity: 0; }
 .details { display: block; margin-top: 18px; padding: 13px 15px; border-radius: 10px; background: #f3f6f3; color: #28464d; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .9rem; }

@@ -9,11 +9,38 @@ import re
 import shutil
 import time
 import urllib.request
+import zipfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 PUBLIC_FILES = ("index.html", "style.css", "app.js", "firmware.js", "catalog.json")
 MAX_TOTAL = 850 * 1024 * 1024
+
+
+def app_partitions(archive_path):
+    with zipfile.ZipFile(archive_path) as archive:
+        names = archive.namelist()
+        if names != ["merged-binary.bin"]:
+            raise ValueError(f"Unexpected release ZIP contents: {archive_path.name}")
+        image = archive.read("merged-binary.bin")
+    if len(image) < 0x9000:
+        raise ValueError(f"Merged image too small: {archive_path.name}")
+    result = []
+    for offset in range(0x8000, 0x8c00, 32):
+        entry = image[offset:offset + 32]
+        if entry[:2] != b"\xaa\x50":
+            break
+        if entry[2] != 0:
+            continue
+        address = int.from_bytes(entry[4:8], "little")
+        size = int.from_bytes(entry[8:12], "little")
+        label = entry[12:28].split(b"\0", 1)[0].decode("ascii")
+        if not label or address < 0x10000 or address % 0x1000 or size <= 0 or address + size > 32 * 1024 * 1024:
+            raise ValueError(f"Invalid application partition: {archive_path.name}")
+        result.append({"label": label, "offset": address, "size": size})
+    if not result:
+        raise ValueError(f"No application partitions: {archive_path.name}")
+    return result
 
 
 def download(profile, destination):
@@ -44,7 +71,7 @@ def download(profile, destination):
                     output.write(chunk)
             if size != expected_size or digest.hexdigest() != expected_sha:
                 raise ValueError(f"Size or SHA-256 mismatch: {name}")
-            return name
+            return profile["id"], name, app_partitions(target)
         except (OSError, ValueError):
             target.unlink(missing_ok=True)
             if attempt == 2:
@@ -76,9 +103,13 @@ def main():
     shutil.copytree(HERE / "vendor", destination / "vendor")
     firmware_dir = destination / "firmware"
     firmware_dir.mkdir()
+    offsets = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
-        for name in executor.map(lambda p: download(p, firmware_dir), profiles):
+        for profile_id, name, partitions in executor.map(lambda p: download(p, firmware_dir), profiles):
+            offsets[profile_id] = partitions
             print(f"verified {name}", flush=True)
+    (destination / "app-offsets.json").write_text(json.dumps({"release": catalog["release"],
+        "profiles": offsets}, ensure_ascii=False, separators=(",", ":")))
     print(f"Prepared {len(profiles)} public ZIPs ({total / 1048576:.1f} MiB)")
 
 

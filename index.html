@@ -31,11 +31,13 @@
     <section class="card" aria-labelledby="image-title">
       <div class="step">02 / 固件</div>
       <h2 id="image-title">选择发布包或本机镜像</h2>
-      <p>本站托管经过 SHA-256 校验的公开发布 ZIP，可直接加载；也可下载 ZIP 或选择自己编译的 <code>merged-binary.bin</code>。OTA 应用镜像不能使用。</p>
+      <p>本站托管经过 SHA-256 校验的公开发布 ZIP，可直接加载；也可选择本机整机合并镜像或纯应用 <code>.bin</code>。页面会识别镜像类型和写入地址。</p>
       <button id="online" type="button" hidden>直接加载官方发布版</button>
       <a id="release-link" class="download" target="_blank" rel="noopener noreferrer" hidden>下载所选板型的公开发布 ZIP ↗</a>
       <label class="file-picker" for="firmware">选择 .zip / .bin 文件<input id="firmware" type="file" accept=".zip,.bin,application/octet-stream"></label>
       <output id="image-info" class="details">尚未选择镜像</output>
+      <label id="app-target-field" class="field" for="app-target" hidden>应用写入分区<select id="app-target"></select></label>
+      <output id="address-info" class="details" hidden></output>
       <p class="hint">文件只在浏览器内读取。自行编译的镜像可能包含 Wi‑Fi 密码，请勿发布到公共仓库。</p>
     </section>
 
@@ -50,8 +52,8 @@
 
     <section class="card" aria-labelledby="flash-title">
       <div class="step">04 / 写入</div>
-      <h2 id="flash-title">刷写到 0x0</h2>
-      <p>整机镜像会覆盖其覆盖范围内的 bootloader、分区表、应用及配置数据。页面会核对芯片与容量，板型仍需您确认。</p>
+      <h2 id="flash-title">写入固件</h2>
+      <p>整机镜像从 0x0 写入；纯应用镜像按所选板型官方发布镜像的分区表写入。应用分区写入不会改变 OTA 启动选择，请确认所选分区。</p>
       <label class="check"><input id="agree" type="checkbox"> <span>我已确认实际板型与所选构建选项一致，并接受覆盖现有固件和配置。</span></label>
       <button id="flash" type="button" class="primary" disabled>开始刷写并校验</button>
       <progress id="progress" max="100" value="0" aria-label="刷写进度"></progress>

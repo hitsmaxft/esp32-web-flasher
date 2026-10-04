@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { zipSync } from "../vendor/fflate-0.8.2.js";
-import { CHIPS, extractMergedBinary, inspectFirmware } from "../firmware.js";
+import { CHIPS, extractFirmwareBinary, inspectFirmware, resolveFlashPlan } from "../firmware.js";
 
 const catalog = JSON.parse(readFileSync(new URL("../catalog.json", import.meta.url)));
 
@@ -36,8 +36,25 @@ test("catalog covers every variant with unique identifiers and S3 first", () => 
 
 test("all currently supported chip families accept their own merged image", () => {
   for (const target of Object.keys(CHIPS)) {
-    assert.equal(inspectFirmware(image(target), target, "other").chip, CHIPS[target].name);
+    const metadata = inspectFirmware(image(target), target, "other");
+    assert.equal(metadata.chip, CHIPS[target].name);
+    assert.equal(metadata.kind, "merged");
+    assert.equal(resolveFlashPlan(metadata).address, 0);
   }
+});
+
+test("standalone application starts at selected official partition offset", () => {
+  const app = image("esp32s3").slice(0x10000);
+  const metadata = inspectFirmware(app, "esp32s3", "esp32-s3-rlcd-4.2");
+  const partitions = [
+    { label: "ota_0", offset: 0x20000, size: 0x20000 },
+    { label: "ota_1", offset: 0x40000, size: 0x20000 },
+  ];
+  assert.equal(metadata.kind, "app");
+  assert.equal(resolveFlashPlan(metadata, partitions, 0x20000).address, 0x20000);
+  assert.equal(resolveFlashPlan(metadata, partitions, 0x40000).required, 0x60000);
+  assert.throws(() => resolveFlashPlan(metadata, partitions, 0x10000), /偏移/);
+  assert.throws(() => resolveFlashPlan(metadata, [{ label: "ota_0", offset: 0x20000, size: 0x10000 }], 0x20000), /容量/);
 });
 
 test("reject wrong chip, non-XiaoZhi image, and unsupported S31", () => {
@@ -49,6 +66,6 @@ test("reject wrong chip, non-XiaoZhi image, and unsupported S31", () => {
 test("release ZIP must match the selected board and contain merged-binary.bin", () => {
   const profile = catalog.profiles.find((p) => p.id === "waveshare-esp32-s3-rlcd-4.2");
   const zip = zipSync({ "merged-binary.bin": image("esp32s3") });
-  assert.equal(extractMergedBinary(zip, "v2.5.0_waveshare-esp32-s3-rlcd-4.2.zip", profile).bytes.length, 0x30000);
-  assert.throws(() => extractMergedBinary(zip, "v2.5.0_other.zip", profile), /板型/);
+  assert.equal(extractFirmwareBinary(zip, "v2.5.0_waveshare-esp32-s3-rlcd-4.2.zip", profile).bytes.length, 0x30000);
+  assert.throws(() => extractFirmwareBinary(zip, "v2.5.0_other.zip", profile), /板型/);
 });

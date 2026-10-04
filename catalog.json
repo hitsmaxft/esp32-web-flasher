@@ -1,0 +1,1826 @@
+{
+  "source": "78/xiaozhi-esp32",
+  "release": "v2.5.0",
+  "profiles": [
+    {
+      "id": "alientek-atk-dnesp32s3",
+      "board": "alientek/atk-dnesp32s3",
+      "target": "esp32s3",
+      "name": "atk-dnesp32s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_alientek-atk-dnesp32s3.zip",
+      "sha256": "100cff8899f61218ceca98b6a34845edd588e723d5fe37da63a840b83d7753b2",
+      "bytes": 2902713,
+      "mirror": "v2.5.0_alientek-atk-dnesp32s3.zip"
+    },
+    {
+      "id": "alientek-atk-dnesp32s3-box",
+      "board": "alientek/atk-dnesp32s3-box",
+      "target": "esp32s3",
+      "name": "atk-dnesp32s3-box",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_alientek-atk-dnesp32s3-box.zip",
+      "sha256": "fb9e73c436cacd019afbe272913d421d2f92828afebf100946103801ff9601b4",
+      "bytes": 2853618,
+      "mirror": "v2.5.0_alientek-atk-dnesp32s3-box.zip"
+    },
+    {
+      "id": "alientek-atk-dnesp32s3-box0",
+      "board": "alientek/atk-dnesp32s3-box0",
+      "target": "esp32s3",
+      "name": "atk-dnesp32s3-box0",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_alientek-atk-dnesp32s3-box0.zip",
+      "sha256": "543774e9fd7454c0068b01689d16ab30dabdae4a8f0af7744456a60230ce6567",
+      "bytes": 2871893,
+      "mirror": "v2.5.0_alientek-atk-dnesp32s3-box0.zip"
+    },
+    {
+      "id": "alientek-atk-dnesp32s3-box2-4g",
+      "board": "alientek/atk-dnesp32s3-box2-4g",
+      "target": "esp32s3",
+      "name": "atk-dnesp32s3-box2-4g",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_alientek-atk-dnesp32s3-box2-4g.zip",
+      "sha256": "b25fa5075e3c030e2c4783cbc23799a2ec9d4097514620d4ab30f96b17c3bd76",
+      "bytes": 2899724,
+      "mirror": "v2.5.0_alientek-atk-dnesp32s3-box2-4g.zip"
+    },
+    {
+      "id": "alientek-atk-dnesp32s3-box2-wifi",
+      "board": "alientek/atk-dnesp32s3-box2-wifi",
+      "target": "esp32s3",
+      "name": "atk-dnesp32s3-box2-wifi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_alientek-atk-dnesp32s3-box2-wifi.zip",
+      "sha256": "3a7e3aabcab67c7ac030a6c6f801249832dad718dea33ddfb8b97a453e93c83a",
+      "bytes": 2864258,
+      "mirror": "v2.5.0_alientek-atk-dnesp32s3-box2-wifi.zip"
+    },
+    {
+      "id": "alientek-atk-dnesp32s3-box3",
+      "board": "alientek/atk-dnesp32s3-box3",
+      "target": "esp32s3",
+      "name": "atk-dnesp32s3-box3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_alientek-atk-dnesp32s3-box3.zip",
+      "sha256": "9c178b9f607be9b27ab337761e22741ec6a14c0971e4ef5562d7c336c5672d27",
+      "bytes": 2782730,
+      "mirror": "v2.5.0_alientek-atk-dnesp32s3-box3.zip"
+    },
+    {
+      "id": "bread-compact-ml307",
+      "board": "bread-compact-ml307",
+      "target": "esp32s3",
+      "name": "bread-compact-ml307",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-ml307.zip",
+      "sha256": "1282766afcd4bf1bd33c0fd631fbab2cb779db15c3173c158d37fc188f5457d0",
+      "bytes": 2032881,
+      "mirror": "v2.5.0_bread-compact-ml307.zip"
+    },
+    {
+      "id": "bread-compact-ml307-128x64",
+      "board": "bread-compact-ml307",
+      "target": "esp32s3",
+      "name": "bread-compact-ml307-128x64",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-ml307-128x64.zip",
+      "sha256": "940da4ada077599eed55b073c36a23820f7041e76bb7df9a07c0c7b6141cd2e3",
+      "bytes": 2032818,
+      "mirror": "v2.5.0_bread-compact-ml307-128x64.zip"
+    },
+    {
+      "id": "bread-compact-nt26",
+      "board": "bread-compact-nt26",
+      "target": "esp32s3",
+      "name": "bread-compact-nt26",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-nt26.zip",
+      "sha256": "86c6e68ab7f115ac9c90a1badd284140d31e2b0830eb0fc791775aa7284fd8a4",
+      "bytes": 1715129,
+      "mirror": "v2.5.0_bread-compact-nt26.zip"
+    },
+    {
+      "id": "bread-compact-wifi",
+      "board": "bread-compact-wifi",
+      "target": "esp32s3",
+      "name": "bread-compact-wifi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-wifi.zip",
+      "sha256": "cd5a2d6a5994451de82295e806892104d1e5518b7b71ef98cf78c8b554c0141f",
+      "bytes": 1995164,
+      "mirror": "v2.5.0_bread-compact-wifi.zip"
+    },
+    {
+      "id": "bread-compact-wifi-128x64",
+      "board": "bread-compact-wifi",
+      "target": "esp32s3",
+      "name": "bread-compact-wifi-128x64",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-wifi-128x64.zip",
+      "sha256": "5c01e1a54ef3ed227ac98913795869675350eeb896269dea982920d3b36f5b19",
+      "bytes": 1995153,
+      "mirror": "v2.5.0_bread-compact-wifi-128x64.zip"
+    },
+    {
+      "id": "bread-compact-wifi-lcd",
+      "board": "bread-compact-wifi-lcd",
+      "target": "esp32s3",
+      "name": "bread-compact-wifi-lcd",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-wifi-lcd.zip",
+      "sha256": "ec2e9e427e9acf116f7e35556c5e1c418429b0be4941c93c414767aba7c81cf4",
+      "bytes": 2490904,
+      "mirror": "v2.5.0_bread-compact-wifi-lcd.zip"
+    },
+    {
+      "id": "bread-compact-wifi-s3cam",
+      "board": "bread-compact-wifi-s3cam",
+      "target": "esp32s3",
+      "name": "bread-compact-wifi-s3cam",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-wifi-s3cam.zip",
+      "sha256": "4070f2df4a966f5d69fe308d049083b2d410c1f16a56144475bca816a131924d",
+      "bytes": 2591602,
+      "mirror": "v2.5.0_bread-compact-wifi-s3cam.zip"
+    },
+    {
+      "id": "dfrobot-df-k10",
+      "board": "dfrobot/df-k10",
+      "target": "esp32s3",
+      "name": "df-k10",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_dfrobot-df-k10.zip",
+      "sha256": "61310c74f436860d914d75ebf95de836148e1832773d3f6ed01468a6c7818c6e",
+      "bytes": 2905345,
+      "mirror": "v2.5.0_dfrobot-df-k10.zip"
+    },
+    {
+      "id": "dfrobot-df-s3-ai-cam",
+      "board": "dfrobot/df-s3-ai-cam",
+      "target": "esp32s3",
+      "name": "df-s3-ai-cam",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_dfrobot-df-s3-ai-cam.zip",
+      "sha256": "23815f066a238978477f4398a0a24fe763a60e4969bf509d063dd47962d32735",
+      "bytes": 1803161,
+      "mirror": "v2.5.0_dfrobot-df-s3-ai-cam.zip"
+    },
+    {
+      "id": "doit-s3-aibox",
+      "board": "doit-s3-aibox",
+      "target": "esp32s3",
+      "name": "doit-s3-aibox",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_doit-s3-aibox.zip",
+      "sha256": "4927e136bde06c5cdda57378c40c91c8c1afd004d1b9d8617516f1f1ce0d5b5a",
+      "bytes": 1728996,
+      "mirror": "v2.5.0_doit-s3-aibox.zip"
+    },
+    {
+      "id": "du-chatx",
+      "board": "du-chatx",
+      "target": "esp32s3",
+      "name": "du-chatx",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_du-chatx.zip",
+      "sha256": "e61030c07ea7abd7068f6d4049e8e6052c331a14f309f6540cd2dc9f252d238c",
+      "bytes": 2500139,
+      "mirror": "v2.5.0_du-chatx.zip"
+    },
+    {
+      "id": "electron-bot",
+      "board": "electron-bot",
+      "target": "esp32s3",
+      "name": "electron-bot",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_electron-bot.zip",
+      "sha256": "d90398509d9e149ed80c4d1c02de12a7ee99efdb42dd3dcc6efed8c95f84413d",
+      "bytes": 3833861,
+      "mirror": "v2.5.0_electron-bot.zip"
+    },
+    {
+      "id": "espressif-esp-mosaico",
+      "board": "espressif/esp-mosaico",
+      "target": "esp32s31",
+      "name": "esp-mosaico",
+      "asset": null,
+      "sha256": null,
+      "bytes": null,
+      "mirror": null
+    },
+    {
+      "id": "espressif-esp-sparkbot",
+      "board": "espressif/esp-sparkbot",
+      "target": "esp32s3",
+      "name": "esp-sparkbot",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-sparkbot.zip",
+      "sha256": "da23414933d8b741bc7abe20260422cdef865d5d0e64d2a28a7144afac179b53",
+      "bytes": 2796223,
+      "mirror": "v2.5.0_espressif-esp-sparkbot.zip"
+    },
+    {
+      "id": "espressif-esp-vocat",
+      "board": "espressif/esp-vocat",
+      "target": "esp32s3",
+      "name": "esp-vocat",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-vocat.zip",
+      "sha256": "0388c3ac6b5b89b7cbbca0a918a89c85e8822a030861311f9a1084ca42813ba9",
+      "bytes": 3069665,
+      "mirror": "v2.5.0_espressif-esp-vocat.zip"
+    },
+    {
+      "id": "espressif-esp-box",
+      "board": "espressif/esp32-s3-box",
+      "target": "esp32s3",
+      "name": "esp-box",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-box.zip",
+      "sha256": "95ffe3535011e60168205716beb1e549ba7250f9b17fb8aaaea60b3642117378",
+      "bytes": 2870256,
+      "mirror": "v2.5.0_espressif-esp-box.zip"
+    },
+    {
+      "id": "espressif-esp-box-3",
+      "board": "espressif/esp32-s3-box-3",
+      "target": "esp32s3",
+      "name": "esp-box-3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-box-3.zip",
+      "sha256": "8a62e09135d6f0ea40baa7459ac0237ab9bed51527bc052c3844ed6177edb9b2",
+      "bytes": 2870538,
+      "mirror": "v2.5.0_espressif-esp-box-3.zip"
+    },
+    {
+      "id": "espressif-esp-box-lite",
+      "board": "espressif/esp32-s3-box-lite",
+      "target": "esp32s3",
+      "name": "esp-box-lite",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-box-lite.zip",
+      "sha256": "07169bce3b184be8a6f66acfb6702784907cddee9e221880cd68deab1ba5b207",
+      "bytes": 2871723,
+      "mirror": "v2.5.0_espressif-esp-box-lite.zip"
+    },
+    {
+      "id": "espressif-esp32s3-korvo2-v3",
+      "board": "espressif/esp32-s3-korvo-2-v3.0",
+      "target": "esp32s3",
+      "name": "esp32s3-korvo2-v3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp32s3-korvo2-v3.zip",
+      "sha256": "1e8558512c54fd1b2c57210409117f0f7bb1db397b6fd77b176e330772898664",
+      "bytes": 2809496,
+      "mirror": "v2.5.0_espressif-esp32s3-korvo2-v3.zip"
+    },
+    {
+      "id": "espressif-esp32s3-korvo2-v3-rndis",
+      "board": "espressif/esp32-s3-korvo-2-v3.0-rndis",
+      "target": "esp32s3",
+      "name": "esp32s3-korvo2-v3-rndis",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp32s3-korvo2-v3-rndis.zip",
+      "sha256": "939305a66585d47ad15ede4a512bcf5c0a3590e2f3e621595e8f61eb3e4400d8",
+      "bytes": 2550147,
+      "mirror": "v2.5.0_espressif-esp32s3-korvo2-v3-rndis.zip"
+    },
+    {
+      "id": "espressif-esp-s3-lcd-ev-board-1p4",
+      "board": "espressif/esp32-s3-lcd-ev-board",
+      "target": "esp32s3",
+      "name": "esp-s3-lcd-ev-board-1p4",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-s3-lcd-ev-board-1p4.zip",
+      "sha256": "2446109269fda8b5da9352bbafd143a6ac4ab3d713ea06d75ee9c3482dda81a1",
+      "bytes": 3188656,
+      "mirror": "v2.5.0_espressif-esp-s3-lcd-ev-board-1p4.zip"
+    },
+    {
+      "id": "espressif-esp-s3-lcd-ev-board-1p5",
+      "board": "espressif/esp32-s3-lcd-ev-board",
+      "target": "esp32s3",
+      "name": "esp-s3-lcd-ev-board-1p5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-s3-lcd-ev-board-1p5.zip",
+      "sha256": "60ba6ff896b49883df6af212d293b62bae31c81a7283b2d9fff2929e5fc7d0c2",
+      "bytes": 3188659,
+      "mirror": "v2.5.0_espressif-esp-s3-lcd-ev-board-1p5.zip"
+    },
+    {
+      "id": "espressif-esp-s3-lcd-ev-board-2",
+      "board": "espressif/esp32-s3-lcd-ev-board-2",
+      "target": "esp32s3",
+      "name": "esp-s3-lcd-ev-board-2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-s3-lcd-ev-board-2.zip",
+      "sha256": "4b0b658245d856d37cc7c7c50402b0a6255ad1d7dd9840f2aa65ba52fec875ef",
+      "bytes": 3194698,
+      "mirror": "v2.5.0_espressif-esp-s3-lcd-ev-board-2.zip"
+    },
+    {
+      "id": "espressif-esp32-s31-function-coreboard-1",
+      "board": "espressif/esp32-s31-function-coreboard-1",
+      "target": "esp32s31",
+      "name": "esp32-s31-function-coreboard-1",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp32-s31-function-coreboard-1.zip",
+      "sha256": "d769967213dc79c3ea6e0d70c2a985eeedb580fad4ebd118ed546e45c9270da9",
+      "bytes": 1761966,
+      "mirror": "v2.5.0_espressif-esp32-s31-function-coreboard-1.zip"
+    },
+    {
+      "id": "espressif-esp32-s31-korvo-1",
+      "board": "espressif/esp32-s31-korvo-1",
+      "target": "esp32s31",
+      "name": "esp32-s31-korvo-1",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp32-s31-korvo-1.zip",
+      "sha256": "409e369af1ebe144a4072c144a47f5c67a2f6a95c3976854429e78bd181ff286",
+      "bytes": 3244291,
+      "mirror": "v2.5.0_espressif-esp32-s31-korvo-1.zip"
+    },
+    {
+      "id": "freenove-esp32s3-display-2.8-lcd",
+      "board": "freenove-esp32s3-display-2.8-lcd",
+      "target": "esp32s3",
+      "name": "freenove-esp32s3-display-2.8-lcd",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_freenove-esp32s3-display-2.8-lcd.zip",
+      "sha256": "8fa119fa68939f4d90722f2874dd6547422fc53cc65e72a8fc20b709358b138f",
+      "bytes": 2772715,
+      "mirror": "v2.5.0_freenove-esp32s3-display-2.8-lcd.zip"
+    },
+    {
+      "id": "genjutech-s3-1.54tft",
+      "board": "genjutech-s3-1.54tft",
+      "target": "esp32s3",
+      "name": "genjutech-s3-1.54tft",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_genjutech-s3-1.54tft.zip",
+      "sha256": "8709a8eadbe01fc36efc3ac721c1f6065ebc73c84439bf0652cf742878c86ff4",
+      "bytes": 2771750,
+      "mirror": "v2.5.0_genjutech-s3-1.54tft.zip"
+    },
+    {
+      "id": "hu-087",
+      "board": "hu-087",
+      "target": "esp32s3",
+      "name": "hu-087",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_hu-087.zip",
+      "sha256": "c3358bb3181d088808a165469501cbb0f30d00423348cc899fc84dbf188ecb3a",
+      "bytes": 1982512,
+      "mirror": "v2.5.0_hu-087.zip"
+    },
+    {
+      "id": "jiuchuan-s3",
+      "board": "jiuchuan-s3",
+      "target": "esp32s3",
+      "name": "jiuchuan-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_jiuchuan-s3.zip",
+      "sha256": "6c52a86057067134aa86eb69288f3dc9aca5c00b1f40baa4eaa6607baabcc677",
+      "bytes": 2781256,
+      "mirror": "v2.5.0_jiuchuan-s3.zip"
+    },
+    {
+      "id": "kevin-box-2",
+      "board": "kevin/box-2",
+      "target": "esp32s3",
+      "name": "kevin-box-2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_kevin-box-2.zip",
+      "sha256": "d96f0908464c1bfa251c6f902870c0a16231b1a6fd64cb76598cb7e5fc35c5f9",
+      "bytes": 2053744,
+      "mirror": "v2.5.0_kevin-box-2.zip"
+    },
+    {
+      "id": "kevin-sp-v4-dev",
+      "board": "kevin/sp-v4-dev",
+      "target": "esp32s3",
+      "name": "kevin-sp-v4-dev",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_kevin-sp-v4-dev.zip",
+      "sha256": "b8fefd2bfcedd4da0013a7b87b778506fd469e85e8ed957a8b5dc739b3a5e158",
+      "bytes": 2924208,
+      "mirror": "v2.5.0_kevin-sp-v4-dev.zip"
+    },
+    {
+      "id": "kevin-yuying-313lcd",
+      "board": "kevin/yuying-313lcd",
+      "target": "esp32s3",
+      "name": "kevin-yuying-313lcd",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_kevin-yuying-313lcd.zip",
+      "sha256": "63b6fd19ae21f736d45eca184182bae150435310608e9287d4d849c340371c4f",
+      "bytes": 3179202,
+      "mirror": "v2.5.0_kevin-yuying-313lcd.zip"
+    },
+    {
+      "id": "labplus-ledong-v2",
+      "board": "labplus/ledong-v2",
+      "target": "esp32s3",
+      "name": "labplus-ledong-v2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_labplus-ledong-v2.zip",
+      "sha256": "401f4e3a5a219c88d9848c46959e17f84ee83cfdb15111a75a076e2d4cc85623",
+      "bytes": 2766072,
+      "mirror": "v2.5.0_labplus-ledong-v2.zip"
+    },
+    {
+      "id": "labplus-mpython-v3",
+      "board": "labplus/mpython-v3",
+      "target": "esp32s3",
+      "name": "labplus-mpython-v3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_labplus-mpython-v3.zip",
+      "sha256": "5d2462062578cf3103a8dddac7c08e91d2ffcc4396d05682120bc72c01028098",
+      "bytes": 2765926,
+      "mirror": "v2.5.0_labplus-mpython-v3.zip"
+    },
+    {
+      "id": "lcdwiki-es3c35p",
+      "board": "lcdwiki-es3c35p",
+      "target": "esp32s3",
+      "name": "lcdwiki-es3c35p",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lcdwiki-es3c35p.zip",
+      "sha256": "d56463fc48e124029b089ef05996cf1e52211448c428d2328b8ef79f8a991b41",
+      "bytes": 2890215,
+      "mirror": "v2.5.0_lcdwiki-es3c35p.zip"
+    },
+    {
+      "id": "lceda-course-examples-eda-robot-pro",
+      "board": "lceda-course-examples/eda-robot-pro",
+      "target": "esp32s3",
+      "name": "eda-robot-pro",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lceda-course-examples-eda-robot-pro.zip",
+      "sha256": "9e6449b150e7c415bdd5e37cb29dc6fa19bbcc5b289bc36e36f7c3670c3606d8",
+      "bytes": 1891932,
+      "mirror": "v2.5.0_lceda-course-examples-eda-robot-pro.zip"
+    },
+    {
+      "id": "lceda-course-examples-eda-super-bear",
+      "board": "lceda-course-examples/eda-super-bear",
+      "target": "esp32s3",
+      "name": "eda-super-bear",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lceda-course-examples-eda-super-bear.zip",
+      "sha256": "b32cd82e486ddfc2f5f549069dfec2b1c1d8e10c917785a7d5c1dfb059037563",
+      "bytes": 1596900,
+      "mirror": "v2.5.0_lceda-course-examples-eda-super-bear.zip"
+    },
+    {
+      "id": "lceda-course-examples-eda-tv-pro",
+      "board": "lceda-course-examples/eda-tv-pro",
+      "target": "esp32s3",
+      "name": "eda-tv-pro",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lceda-course-examples-eda-tv-pro.zip",
+      "sha256": "40e7edde8be3551acb914fd6be5704e146c51c6df6e2b0bd55a3a970c4040d03",
+      "bytes": 2022022,
+      "mirror": "v2.5.0_lceda-course-examples-eda-tv-pro.zip"
+    },
+    {
+      "id": "lckfb-lichuang-dev",
+      "board": "lckfb/szpi-esp32s3",
+      "target": "esp32s3",
+      "name": "lichuang-dev",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lckfb-lichuang-dev.zip",
+      "sha256": "4534622b19c6144ff0f9111a0e309a3453119f52281d2244cb31da76cf687987",
+      "bytes": 2921030,
+      "mirror": "v2.5.0_lckfb-lichuang-dev.zip"
+    },
+    {
+      "id": "lilygo-t-cameraplus-s3",
+      "board": "lilygo/t-cameraplus-s3",
+      "target": "esp32s3",
+      "name": "lilygo-t-cameraplus-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lilygo-t-cameraplus-s3.zip",
+      "sha256": "48d6154af7360d94e2c1774ebd0e3ee1afe71f26c0cf5553590b80c03d807f52",
+      "bytes": 2768910,
+      "mirror": "v2.5.0_lilygo-t-cameraplus-s3.zip"
+    },
+    {
+      "id": "lilygo-t-cameraplus-s3-v1.2",
+      "board": "lilygo/t-cameraplus-s3",
+      "target": "esp32s3",
+      "name": "lilygo-t-cameraplus-s3-v1.2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lilygo-t-cameraplus-s3-v1.2.zip",
+      "sha256": "6e3b8e213e522b1e8f2fa441c5f39fc1e151f43a8cdb37e68e4e21e51b8eb28d",
+      "bytes": 2770524,
+      "mirror": "v2.5.0_lilygo-t-cameraplus-s3-v1.2.zip"
+    },
+    {
+      "id": "lilygo-t-circle-s3",
+      "board": "lilygo/t-circle-s3",
+      "target": "esp32s3",
+      "name": "lilygo-t-circle-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lilygo-t-circle-s3.zip",
+      "sha256": "e89d0f19975bff08a8a82b4ea4250ecd9c98fe79bf802b292058e245818a2324",
+      "bytes": 2489145,
+      "mirror": "v2.5.0_lilygo-t-circle-s3.zip"
+    },
+    {
+      "id": "lilygo-t-display-s3-pro-mvsrlora",
+      "board": "lilygo/t-display-s3-pro-mvsrlora",
+      "target": "esp32s3",
+      "name": "lilygo-t-display-s3-pro-mvsrlora",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lilygo-t-display-s3-pro-mvsrlora.zip",
+      "sha256": "0e14e3b9a9a6063bdf208380a4842f8be66c40c6ee05f4bfab20a4c26fad25d2",
+      "bytes": 2742280,
+      "mirror": "v2.5.0_lilygo-t-display-s3-pro-mvsrlora.zip"
+    },
+    {
+      "id": "m5stack-atom-echos3r",
+      "board": "m5stack/atom-echos3r",
+      "target": "esp32s3",
+      "name": "atom-echos3r",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-atom-echos3r.zip",
+      "sha256": "31b70b97fbe8805a532934e9e0e3297d5c5030152faff09bc190b0d1bd3979f4",
+      "bytes": 1742677,
+      "mirror": "v2.5.0_m5stack-atom-echos3r.zip"
+    },
+    {
+      "id": "m5stack-atoms3-echo-base",
+      "board": "m5stack/atoms3-echo-base",
+      "target": "esp32s3",
+      "name": "atoms3-echo-base",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-atoms3-echo-base.zip",
+      "sha256": "d642a368592f0813465e620405ef254384ac5bbe601e60e158d729f799f6b4dd",
+      "bytes": 2319491,
+      "mirror": "v2.5.0_m5stack-atoms3-echo-base.zip"
+    },
+    {
+      "id": "m5stack-atoms3r-cam-m12-echo-base",
+      "board": "m5stack/atoms3r-cam-m12-echo-base",
+      "target": "esp32s3",
+      "name": "atoms3r-cam-m12-echo-base",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-atoms3r-cam-m12-echo-base.zip",
+      "sha256": "1340f1cc66a9158344f5b372f6b1a5a1f32c7488af56cf94012671852510f6e5",
+      "bytes": 1820867,
+      "mirror": "v2.5.0_m5stack-atoms3r-cam-m12-echo-base.zip"
+    },
+    {
+      "id": "m5stack-atoms3r-echo-base",
+      "board": "m5stack/atoms3r-echo-base",
+      "target": "esp32s3",
+      "name": "atoms3r-echo-base",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-atoms3r-echo-base.zip",
+      "sha256": "b873c537ca53586bfca6238e5039c5e659e48a9ea4688e3f79e10243ce510c3a",
+      "bytes": 2548563,
+      "mirror": "v2.5.0_m5stack-atoms3r-echo-base.zip"
+    },
+    {
+      "id": "m5stack-atoms3r-echo-pyramid",
+      "board": "m5stack/atoms3r-echo-pyramid",
+      "target": "esp32s3",
+      "name": "atoms3r-echo-pyramid",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-atoms3r-echo-pyramid.zip",
+      "sha256": "ecc74806ea875ea1edc7659710186d433891c4be7c0644edd86723de1811f7fa",
+      "bytes": 2550769,
+      "mirror": "v2.5.0_m5stack-atoms3r-echo-pyramid.zip"
+    },
+    {
+      "id": "m5stack-cardputer-adv",
+      "board": "m5stack/cardputer-adv",
+      "target": "esp32s3",
+      "name": "m5stack-cardputer-adv",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-cardputer-adv.zip",
+      "sha256": "8247844a92ca9e553b00f8a84158f04080c2b114f42962018559ba0a280569d9",
+      "bytes": 2484112,
+      "mirror": "v2.5.0_m5stack-cardputer-adv.zip"
+    },
+    {
+      "id": "m5stack-core-s3",
+      "board": "m5stack/core-s3",
+      "target": "esp32s3",
+      "name": "m5stack-core-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-core-s3.zip",
+      "sha256": "d4ca8cc61253c6ae1bd8e74477c9323c84d2e8b700b37c1ed2bf8688e18e9ab9",
+      "bytes": 2778343,
+      "mirror": "v2.5.0_m5stack-core-s3.zip"
+    },
+    {
+      "id": "m5stack-stick-s3",
+      "board": "m5stack/stick-s3",
+      "target": "esp32s3",
+      "name": "m5stack-stick-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-stick-s3.zip",
+      "sha256": "94bd8ef3fa0f2eb043677faac923a1026df59f3ccc85573f7506dfa4f96bf9e4",
+      "bytes": 2557310,
+      "mirror": "v2.5.0_m5stack-stick-s3.zip"
+    },
+    {
+      "id": "m5stack-stopwatch",
+      "board": "m5stack/stopwatch",
+      "target": "esp32s3",
+      "name": "m5stack-stopwatch",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-stopwatch.zip",
+      "sha256": "fd3d1e040f46411a7b444e2ec416ba419112d7931457c19cd4cd6ce6008c8bb0",
+      "bytes": 3196497,
+      "mirror": "v2.5.0_m5stack-stopwatch.zip"
+    },
+    {
+      "id": "magiclick-2p4",
+      "board": "magiclick/2p4",
+      "target": "esp32s3",
+      "name": "magiclick-2p4",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_magiclick-2p4.zip",
+      "sha256": "3226442b443c7a537f6ccac8ee14bf1727ef6fd03bff90e74f0dc0b6429a91bb",
+      "bytes": 2568753,
+      "mirror": "v2.5.0_magiclick-2p4.zip"
+    },
+    {
+      "id": "magiclick-2p5",
+      "board": "magiclick/2p5",
+      "target": "esp32s3",
+      "name": "magiclick-2p5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_magiclick-2p5.zip",
+      "sha256": "2c96c481e2ef026bd2c5225445c04f9b6fd093ec3af804fa611577211985d28c",
+      "bytes": 2607687,
+      "mirror": "v2.5.0_magiclick-2p5.zip"
+    },
+    {
+      "id": "maza-ai-esp32-s3",
+      "board": "maza-ai/esp32-s3",
+      "target": "esp32s3",
+      "name": "maza-ai-esp32-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_maza-ai-esp32-s3.zip",
+      "sha256": "2070786723c65d8857d3f2de538c5caf5f8364cc68b060e402c870f54539b49a",
+      "bytes": 2036410,
+      "mirror": "v2.5.0_maza-ai-esp32-s3.zip"
+    },
+    {
+      "id": "maza-ai-esp32-s31",
+      "board": "maza-ai/esp32-s31",
+      "target": "esp32s31",
+      "name": "maza-ai-esp32-s31",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_maza-ai-esp32-s31.zip",
+      "sha256": "0a17b406a91ebb8d6c7cc1358f5613a5702d7e9273aefe5122e50a529c90d98e",
+      "bytes": 2061261,
+      "mirror": "v2.5.0_maza-ai-esp32-s31.zip"
+    },
+    {
+      "id": "minsi-k08-dual",
+      "board": "minsi-k08-dual",
+      "target": "esp32s3",
+      "name": "minsi-k08-dual",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_minsi-k08-dual.zip",
+      "sha256": "efe903309f3925fd49b4306df2c490bf4a51b17a7b3f12137b73d993cf830ac6",
+      "bytes": 2779569,
+      "mirror": "v2.5.0_minsi-k08-dual.zip"
+    },
+    {
+      "id": "mixgo-nova",
+      "board": "mixgo-nova",
+      "target": "esp32s3",
+      "name": "mixgo-nova",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_mixgo-nova.zip",
+      "sha256": "977e6a5f2782ab50d23ed8494a7baa3f5bfa875efdb997a9e7fce9df55c72564",
+      "bytes": 2511321,
+      "mirror": "v2.5.0_mixgo-nova.zip"
+    },
+    {
+      "id": "movecall-cuican-esp32s3",
+      "board": "movecall/cuican-esp32s3",
+      "target": "esp32s3",
+      "name": "movecall-cuican-esp32s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_movecall-cuican-esp32s3.zip",
+      "sha256": "70c5c195e0f0cdcbc8a2ced802e9d90b39317a657fca2d6b2be9c88cb2801041",
+      "bytes": 2765232,
+      "mirror": "v2.5.0_movecall-cuican-esp32s3.zip"
+    },
+    {
+      "id": "movecall-moji-esp32s3",
+      "board": "movecall/moji-esp32s3",
+      "target": "esp32s3",
+      "name": "movecall-moji-esp32s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_movecall-moji-esp32s3.zip",
+      "sha256": "5b9d54edfd55ae71681fc49029259fda6d86aa861040fcdc697c2e2f6f17eb6e",
+      "bytes": 2767193,
+      "mirror": "v2.5.0_movecall-moji-esp32s3.zip"
+    },
+    {
+      "id": "nologo-xingzhi-abs-2.0",
+      "board": "nologo/xingzhi-abs-2.0",
+      "target": "esp32s3",
+      "name": "xingzhi-abs-2.0",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-abs-2.0.zip",
+      "sha256": "53d4c7dda912816af32c31889fcbd3a7573d9b2e8d546ffe3540571d6dde5377",
+      "bytes": 2952272,
+      "mirror": "v2.5.0_nologo-xingzhi-abs-2.0.zip"
+    },
+    {
+      "id": "nologo-xingzhi-cube-0.85tft-ml307",
+      "board": "nologo/xingzhi-cube-0.85tft-ml307",
+      "target": "esp32s3",
+      "name": "xingzhi-cube-0.85tft-ml307",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-cube-0.85tft-ml307.zip",
+      "sha256": "400d9149cb2b76cc29d328d2aa432df368425222854426f6b30c4ae21d632f0d",
+      "bytes": 2027248,
+      "mirror": "v2.5.0_nologo-xingzhi-cube-0.85tft-ml307.zip"
+    },
+    {
+      "id": "nologo-xingzhi-cube-0.85tft-wifi",
+      "board": "nologo/xingzhi-cube-0.85tft-wifi",
+      "target": "esp32s3",
+      "name": "xingzhi-cube-0.85tft-wifi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-cube-0.85tft-wifi.zip",
+      "sha256": "e8d3bcdd8be8425505aa17e09f14cf6a987fcd05bed2c96c39ac24fd7848d6d3",
+      "bytes": 2489119,
+      "mirror": "v2.5.0_nologo-xingzhi-cube-0.85tft-wifi.zip"
+    },
+    {
+      "id": "nologo-xingzhi-cube-0.96oled-ml307",
+      "board": "nologo/xingzhi-cube-0.96oled-ml307",
+      "target": "esp32s3",
+      "name": "xingzhi-cube-0.96oled-ml307",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-cube-0.96oled-ml307.zip",
+      "sha256": "b170b52b58f352b4b116593875ac14ccbefe7540604934a82bcbb4f7725a05f4",
+      "bytes": 2041141,
+      "mirror": "v2.5.0_nologo-xingzhi-cube-0.96oled-ml307.zip"
+    },
+    {
+      "id": "nologo-xingzhi-cube-0.96oled-wifi",
+      "board": "nologo/xingzhi-cube-0.96oled-wifi",
+      "target": "esp32s3",
+      "name": "xingzhi-cube-0.96oled-wifi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-cube-0.96oled-wifi.zip",
+      "sha256": "717f38ff984de4963c05226a5d8d5403ec5d0bd9ba42f02d0f208c5b5e3ff325",
+      "bytes": 2004504,
+      "mirror": "v2.5.0_nologo-xingzhi-cube-0.96oled-wifi.zip"
+    },
+    {
+      "id": "nologo-xingzhi-cube-1.54tft-ml307",
+      "board": "nologo/xingzhi-cube-1.54tft-ml307",
+      "target": "esp32s3",
+      "name": "xingzhi-cube-1.54tft-ml307",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-cube-1.54tft-ml307.zip",
+      "sha256": "1a318491a5ecf5e7f9f1ebb0a23ee0041c45eb25fe805bba7c357227bd5a7382",
+      "bytes": 2888299,
+      "mirror": "v2.5.0_nologo-xingzhi-cube-1.54tft-ml307.zip"
+    },
+    {
+      "id": "nologo-xingzhi-cube-1.54tft-wifi",
+      "board": "nologo/xingzhi-cube-1.54tft-wifi",
+      "target": "esp32s3",
+      "name": "xingzhi-cube-1.54tft-wifi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-cube-1.54tft-wifi.zip",
+      "sha256": "a8560ce2abbdd255abaf35a5675a979ec866e096ca7a3a5c4ad5a0cafb8b8caf",
+      "bytes": 2851530,
+      "mirror": "v2.5.0_nologo-xingzhi-cube-1.54tft-wifi.zip"
+    },
+    {
+      "id": "nologo-xingzhi-metal-1.54-wifi",
+      "board": "nologo/xingzhi-metal-1.54-wifi",
+      "target": "esp32s3",
+      "name": "xingzhi-metal-1.54-wifi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nologo-xingzhi-metal-1.54-wifi.zip",
+      "sha256": "33eb085a8e1bfc8601dcc5e1a4ed6de24d5cabdbc6a533ca1af4e68bc2f2e4a7",
+      "bytes": 2878182,
+      "mirror": "v2.5.0_nologo-xingzhi-metal-1.54-wifi.zip"
+    },
+    {
+      "id": "nulllab-ai-vox-v3",
+      "board": "nulllab-ai-vox-v3",
+      "target": "esp32s3",
+      "name": "nulllab-ai-vox-v3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_nulllab-ai-vox-v3.zip",
+      "sha256": "db6cbb99da42a71535ac26baab436287e32ce25fa4e99249f99a4c93130fa64e",
+      "bytes": 2802652,
+      "mirror": "v2.5.0_nulllab-ai-vox-v3.zip"
+    },
+    {
+      "id": "otto-robot",
+      "board": "otto-robot",
+      "target": "esp32s3",
+      "name": "otto-robot",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_otto-robot.zip",
+      "sha256": "10675b740c39a418faaafe7e38e89dceddfa8cc75ab16546beb1463a6e90d7f0",
+      "bytes": 3695027,
+      "mirror": "v2.5.0_otto-robot.zip"
+    },
+    {
+      "id": "quandong-s3-dev",
+      "board": "quandong-s3-dev",
+      "target": "esp32s3",
+      "name": "quandong-s3-dev",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_quandong-s3-dev.zip",
+      "sha256": "edcbaa2b210121f4a3c53c1deda4c06266da6b010cffe158c0bdec31a268a3a3",
+      "bytes": 2867026,
+      "mirror": "v2.5.0_quandong-s3-dev.zip"
+    },
+    {
+      "id": "rymcu-bigsmart",
+      "board": "rymcu/bigsmart",
+      "target": "esp32s3",
+      "name": "rymcu-bigsmart",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_rymcu-bigsmart.zip",
+      "sha256": "8fc8702805beb4aa72e5b951759e0bd039e4ef9f84c23055434b8b17a3207475",
+      "bytes": 2920496,
+      "mirror": "v2.5.0_rymcu-bigsmart.zip"
+    },
+    {
+      "id": "sensecap-watcher",
+      "board": "sensecap-watcher",
+      "target": "esp32s3",
+      "name": "sensecap-watcher",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_sensecap-watcher.zip",
+      "sha256": "be9abfc91ba888423302e2ef04082aa7a9ff99cad62ffa75cc527afbcb50b5cb",
+      "bytes": 3394990,
+      "mirror": "v2.5.0_sensecap-watcher.zip"
+    },
+    {
+      "id": "spotpear-sp-esp32-s3-1.28-box",
+      "board": "spotpear/sp-esp32-s3-1.28-box",
+      "target": "esp32s3",
+      "name": "sp-esp32-s3-1.28-box",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_spotpear-sp-esp32-s3-1.28-box.zip",
+      "sha256": "d9702cf7a0afd5344a1a77b65930d708bba4d08d9b6a465df4ecf71464b56eb4",
+      "bytes": 2575443,
+      "mirror": "v2.5.0_spotpear-sp-esp32-s3-1.28-box.zip"
+    },
+    {
+      "id": "spotpear-sp-esp32-s3-1.54-muma",
+      "board": "spotpear/sp-esp32-s3-1.54-muma",
+      "target": "esp32s3",
+      "name": "sp-esp32-s3-1.54-muma",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_spotpear-sp-esp32-s3-1.54-muma.zip",
+      "sha256": "b50edf5861c5981359ab86bc3f396ce43d095ec1f0f36c98fe3fcb8e31dd645b",
+      "bytes": 2526761,
+      "mirror": "v2.5.0_spotpear-sp-esp32-s3-1.54-muma.zip"
+    },
+    {
+      "id": "taiji-pi-s3",
+      "board": "taiji-pi-s3",
+      "target": "esp32s3",
+      "name": "taiji-pi-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_taiji-pi-s3.zip",
+      "sha256": "43c3721235da01722d7d01deb3fcec4f21946ce66d2b2a53df5590c939edceef",
+      "bytes": 2736359,
+      "mirror": "v2.5.0_taiji-pi-s3.zip"
+    },
+    {
+      "id": "taiji-pi-s3-pdm",
+      "board": "taiji-pi-s3",
+      "target": "esp32s3",
+      "name": "taiji-pi-s3-pdm",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_taiji-pi-s3-pdm.zip",
+      "sha256": "d11e6c8ac95707a7eb4d348de49bd11eff26aa74204eceb6d309083b789c4024",
+      "bytes": 2737857,
+      "mirror": "v2.5.0_taiji-pi-s3-pdm.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-audio-board",
+      "board": "waveshare/esp32-s3-audio-board",
+      "target": "esp32s3",
+      "name": "esp32-s3-audio-board",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-audio-board.zip",
+      "sha256": "235f647f3d6ac3068c66ab73fa7f21388ea8af310eef3955a3ca871cff08ad2d",
+      "bytes": 2553178,
+      "mirror": "v2.5.0_waveshare-esp32-s3-audio-board.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-cam-1.83",
+      "board": "waveshare/esp32-s3-cam",
+      "target": "esp32s3",
+      "name": "esp32-s3-cam-1.83",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-cam-1.83.zip",
+      "sha256": "001895cdf3a1b4197883454dd61b4efdd6ff9d56e3c045e157462fccbe081a6a",
+      "bytes": 2596479,
+      "mirror": "v2.5.0_waveshare-esp32-s3-cam-1.83.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-cam-2",
+      "board": "waveshare/esp32-s3-cam",
+      "target": "esp32s3",
+      "name": "esp32-s3-cam-2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-cam-2.zip",
+      "sha256": "32a70a0da409d20a9348018f9683312a0508766591f4d33e7170c49426dc8754",
+      "bytes": 2596475,
+      "mirror": "v2.5.0_waveshare-esp32-s3-cam-2.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-cam-2.8",
+      "board": "waveshare/esp32-s3-cam",
+      "target": "esp32s3",
+      "name": "esp32-s3-cam-2.8",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-cam-2.8.zip",
+      "sha256": "50e39484d8933238bcb23937808535682cd340321c3acb692d76098ee0b12085",
+      "bytes": 2596444,
+      "mirror": "v2.5.0_waveshare-esp32-s3-cam-2.8.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-cam-3.5",
+      "board": "waveshare/esp32-s3-cam",
+      "target": "esp32s3",
+      "name": "esp32-s3-cam-3.5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-cam-3.5.zip",
+      "sha256": "d3e0366c1c46304ecdc4f0c4b3d2d3853461e2ed847495f8f8a35a72e8ad3eb6",
+      "bytes": 2596689,
+      "mirror": "v2.5.0_waveshare-esp32-s3-cam-3.5.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-epaper-1.54-v1",
+      "board": "waveshare/esp32-s3-epaper-1.54",
+      "target": "esp32s3",
+      "name": "esp32-s3-epaper-1.54-v1",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-epaper-1.54-v1.zip",
+      "sha256": "3414f00012e14ead575423e67c6d6a1588166f07f95f45afd33c1eb83883411a",
+      "bytes": 2020438,
+      "mirror": "v2.5.0_waveshare-esp32-s3-epaper-1.54-v1.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-epaper-1.54-v2",
+      "board": "waveshare/esp32-s3-epaper-1.54",
+      "target": "esp32s3",
+      "name": "esp32-s3-epaper-1.54-v2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-epaper-1.54-v2.zip",
+      "sha256": "12e21700b80e98c0d87f58e8fc028450dabe56e8913ed57edc61187947eaa202",
+      "bytes": 2662613,
+      "mirror": "v2.5.0_waveshare-esp32-s3-epaper-1.54-v2.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-epaper-3.97",
+      "board": "waveshare/esp32-s3-epaper-3.97",
+      "target": "esp32s3",
+      "name": "esp32-s3-epaper-3.97",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-epaper-3.97.zip",
+      "sha256": "7e4d23af36922b06fd8404bf6ddbeb2db416e1ee277eb8544bf2689cb4c44b08",
+      "bytes": 3091444,
+      "mirror": "v2.5.0_waveshare-esp32-s3-epaper-3.97.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-lcd-0.85",
+      "board": "waveshare/esp32-s3-lcd-0.85",
+      "target": "esp32s3",
+      "name": "esp32-s3-lcd-0.85",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-lcd-0.85.zip",
+      "sha256": "41c1ba7c511f7d8fd05c4463db6817b94845766f6f174adfd67e5f688372f8e9",
+      "bytes": 2525439,
+      "mirror": "v2.5.0_waveshare-esp32-s3-lcd-0.85.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-rgb-matrix",
+      "board": "waveshare/esp32-s3-rgb-matrix",
+      "target": "esp32s3",
+      "name": "esp32-s3-rgb-matrix",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-rgb-matrix.zip",
+      "sha256": "bb138566be7b5e7b823bb269b9aa50d34559e2d1419f4798921f75c3b3840b2f",
+      "bytes": 2036265,
+      "mirror": "v2.5.0_waveshare-esp32-s3-rgb-matrix.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-rlcd-4.2",
+      "board": "waveshare/esp32-s3-rlcd-4.2",
+      "target": "esp32s3",
+      "name": "esp32-s3-rlcd-4.2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-rlcd-4.2.zip",
+      "sha256": "41e3586275cc9d2abe8a9de0ce530c82a3442fa14777e8e519358760b5e34051",
+      "bytes": 3098446,
+      "mirror": "v2.5.0_waveshare-esp32-s3-rlcd-4.2.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-1.32",
+      "board": "waveshare/esp32-s3-touch-amoled-1.32",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-1.32",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-1.32.zip",
+      "sha256": "2a98bce22cab608263a5c85e04142e18f98cd27a5e2ecb633874d151502fb110",
+      "bytes": 2701644,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-1.32.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-1.43c",
+      "board": "waveshare/esp32-s3-touch-amoled-1.43c",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-1.43c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-1.43c.zip",
+      "sha256": "b1d1324bcf1b81837da68765ed23f52e5b959d7c8e52f16f35846155bf48f6ea",
+      "bytes": 2705017,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-1.43c.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-1.75",
+      "board": "waveshare/esp32-s3-touch-amoled-1.75",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-1.75",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-1.75.zip",
+      "sha256": "06b1a33d3ca91c08ac13c2405bb365be626d0f40f51e9cd26292540c080913ba",
+      "bytes": 3191628,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-1.75.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-1.75c",
+      "board": "waveshare/esp32-s3-touch-amoled-1.75",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-1.75c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-1.75c.zip",
+      "sha256": "33a65c54a074ece64b98225266c93e1447adad4ad0272d16bed918740b90cd4b",
+      "bytes": 3190046,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-1.75c.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-1.8",
+      "board": "waveshare/esp32-s3-touch-amoled-1.8",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-1.8",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-1.8.zip",
+      "sha256": "1f4d31486b4dd4f245219a5a45f6f2b32e61500215e95f5218a154650036431a",
+      "bytes": 3188567,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-1.8.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-1.8-v2",
+      "board": "waveshare/esp32-s3-touch-amoled-1.8-v2",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-1.8-v2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-1.8-v2.zip",
+      "sha256": "108b25c96b80326b429b732a467a9ae35aae4488a26a2be9aacd69f59f57e0e5",
+      "bytes": 3188997,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-1.8-v2.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-2.06",
+      "board": "waveshare/esp32-s3-touch-amoled-2.06",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-2.06",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-2.06.zip",
+      "sha256": "dca9a4813a5e7e6dbb806021ee237fcb32bea3d1edfffd3b345c029c090fa5c2",
+      "bytes": 3189099,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-2.06.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-amoled-2.16",
+      "board": "waveshare/esp32-s3-touch-amoled-2.16",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-amoled-2.16",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-amoled-2.16.zip",
+      "sha256": "648618e605878da7a24fd1a9522a2316419f7ac812f6489f77f39462097a7eae",
+      "bytes": 3189245,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-amoled-2.16.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-1.46",
+      "board": "waveshare/esp32-s3-touch-lcd-1.46",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-1.46",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-1.46.zip",
+      "sha256": "0067424a059632ddc2a651fd3fa56f411df86416a14cb564147d1672f8f951b7",
+      "bytes": 2536961,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-1.46.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-1.54",
+      "board": "waveshare/esp32-s3-touch-lcd-1.54",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-1.54",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-1.54.zip",
+      "sha256": "46c33acf7fc60913d6e2afdc88a1d1b35ea4bcd57d21bafebbf4c39ab9441e46",
+      "bytes": 2768984,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-1.54.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-1.83",
+      "board": "waveshare/esp32-s3-touch-lcd-1.83",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-1.83",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-1.83.zip",
+      "sha256": "efe68c35b67af61535cfaff0aea79b85a634e11064d0ce3b844e3b6b9af20ec6",
+      "bytes": 2560510,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-1.83.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-1.85",
+      "board": "waveshare/esp32-s3-touch-lcd-1.85",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-1.85",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-1.85.zip",
+      "sha256": "1f4793c61c890a902500411d769983ccbf4a2e99fe24b735bcebe892f0b2df42",
+      "bytes": 2537573,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-1.85.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-1.85b",
+      "board": "waveshare/esp32-s3-touch-lcd-1.85b",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-1.85b",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-1.85b.zip",
+      "sha256": "2f0dd8cbab6e501dfdd551e523abe91cb5fe0c0eb591074f155fc4ee34f01917",
+      "bytes": 2559758,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-1.85b.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-1.85c",
+      "board": "waveshare/esp32-s3-touch-lcd-1.85c",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-1.85c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-1.85c.zip",
+      "sha256": "f6766a182c986a97723726505409837a8518052d1ff59b09902f0ccb12a8925b",
+      "bytes": 2559374,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-1.85c.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-3.49",
+      "board": "waveshare/esp32-s3-touch-lcd-3.49",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-3.49",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-3.49.zip",
+      "sha256": "dbe596bd3030eeca886959f62cc09f4c310bd759aa89257b8db225dd4b5bbd12",
+      "bytes": 3185099,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-3.49.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-3.49-v2",
+      "board": "waveshare/esp32-s3-touch-lcd-3.49-v2",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-3.49-v2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-3.49-v2.zip",
+      "sha256": "62423f64d695a50e91afe7b45c15fdc06c32ee926f98d582d7087165d2d9ef29",
+      "bytes": 3185135,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-3.49-v2.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-3.5",
+      "board": "waveshare/esp32-s3-touch-lcd-3.5",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-3.5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-3.5.zip",
+      "sha256": "e1671152a66443b1ad54880de4b1ec948e3527f39d131e81899cded9200c1be0",
+      "bytes": 2797165,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-3.5.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-3.5b",
+      "board": "waveshare/esp32-s3-touch-lcd-3.5b",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-3.5b",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-3.5b.zip",
+      "sha256": "020e26541ae7c132518b735b251405abee02db51f7ea1e4f3918d2e059935d04",
+      "bytes": 2540973,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-3.5b.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-4.3c",
+      "board": "waveshare/esp32-s3-touch-lcd-4.3c",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-4.3c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-4.3c.zip",
+      "sha256": "09475b08403f486d9ab43a067214b350d4158d62b2e9c3276d16185ec6ffb5d3",
+      "bytes": 3177767,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-4.3c.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-4b",
+      "board": "waveshare/esp32-s3-touch-lcd-4b",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-4b",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-4b.zip",
+      "sha256": "83f824e9589d3403591c60d056283638c9bb4b43865a1f68af230c117a230799",
+      "bytes": 3190691,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-4b.zip"
+    },
+    {
+      "id": "waveshare-esp32-s3-touch-lcd-7c",
+      "board": "waveshare/esp32-s3-touch-lcd-7c",
+      "target": "esp32s3",
+      "name": "esp32-s3-touch-lcd-7c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-s3-touch-lcd-7c.zip",
+      "sha256": "2affc29d97a5438fa172713cdabf8396b82f24c1f9549f896ca58761e7aa9a69",
+      "bytes": 3186360,
+      "mirror": "v2.5.0_waveshare-esp32-s3-touch-lcd-7c.zip"
+    },
+    {
+      "id": "wk-esp32s3-dev",
+      "board": "wk-esp32s3-dev",
+      "target": "esp32s3",
+      "name": "wk-esp32s3-dev",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_wk-esp32s3-dev.zip",
+      "sha256": "b9183bcc41883a8addd4e4b40a406ced1621cd1cd417f45f2966ac444fbddd81",
+      "bytes": 2719221,
+      "mirror": "v2.5.0_wk-esp32s3-dev.zip"
+    },
+    {
+      "id": "xorigin-aipi-lite",
+      "board": "xorigin/aipi-lite",
+      "target": "esp32s3",
+      "name": "aipi-lite",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_xorigin-aipi-lite.zip",
+      "sha256": "f5199cfe10a7a8c32ad69ed8b543445d9321bcba739b36a6182d09343981a2b4",
+      "bytes": 2090859,
+      "mirror": "v2.5.0_xorigin-aipi-lite.zip"
+    },
+    {
+      "id": "yunliao-s3",
+      "board": "yunliao-s3",
+      "target": "esp32s3",
+      "name": "yunliao-s3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_yunliao-s3.zip",
+      "sha256": "4feae2a1e43dc938f6632b1a9160485de138b38190b176b6bd705e34cc855a71",
+      "bytes": 2799270,
+      "mirror": "v2.5.0_yunliao-s3.zip"
+    },
+    {
+      "id": "zectrix-s3-epaper-4.2",
+      "board": "zectrix/zectrix-s3-epaper-4.2",
+      "target": "esp32s3",
+      "name": "zectrix-s3-epaper-4.2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_zectrix-s3-epaper-4.2.zip",
+      "sha256": "f63ba833395a499bf4be583b2f0ec125a7f151309df35862f188656156204f58",
+      "bytes": 3100005,
+      "mirror": "v2.5.0_zectrix-s3-epaper-4.2.zip"
+    },
+    {
+      "id": "zhengchen-1.54tft-ml307",
+      "board": "zhengchen/1.54tft-ml307",
+      "target": "esp32s3",
+      "name": "zhengchen-1.54tft-ml307",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_zhengchen-1.54tft-ml307.zip",
+      "sha256": "76945ce3d3c40e1250e4b7ca10a112ae26cd4d3a5fa633a18fa25ac0402158c8",
+      "bytes": 2773306,
+      "mirror": "v2.5.0_zhengchen-1.54tft-ml307.zip"
+    },
+    {
+      "id": "zhengchen-1.54tft-wifi",
+      "board": "zhengchen/1.54tft-wifi",
+      "target": "esp32s3",
+      "name": "zhengchen-1.54tft-wifi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_zhengchen-1.54tft-wifi.zip",
+      "sha256": "6ea02a83d3df0132d6faafac77665d994202dc62bbad0e41e26020ee9a108794",
+      "bytes": 2736701,
+      "mirror": "v2.5.0_zhengchen-1.54tft-wifi.zip"
+    },
+    {
+      "id": "zhengchen-cam",
+      "board": "zhengchen/cam",
+      "target": "esp32s3",
+      "name": "zhengchen-cam",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_zhengchen-cam.zip",
+      "sha256": "063fe1ad21b98f4ba92d368956bc150d11f7e46649f28f229922847f33cd7b4e",
+      "bytes": 2823264,
+      "mirror": "v2.5.0_zhengchen-cam.zip"
+    },
+    {
+      "id": "zhengchen-cam-ml307",
+      "board": "zhengchen/cam-ml307",
+      "target": "esp32s3",
+      "name": "zhengchen-cam-ml307",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_zhengchen-cam-ml307.zip",
+      "sha256": "bdd9f5aed45bcd95e130f45843d1829d67cb0c9ec58e6ee5a0234fc730ebedd3",
+      "bytes": 2858158,
+      "mirror": "v2.5.0_zhengchen-cam-ml307.zip"
+    },
+    {
+      "id": "bread-compact-esp32",
+      "board": "bread-compact-esp32",
+      "target": "esp32",
+      "name": "bread-compact-esp32",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-esp32.zip",
+      "sha256": "bda9f03d463285b4da065debb82d9271d83b7a143d96b700c018995ec997de0a",
+      "bytes": 1535999,
+      "mirror": "v2.5.0_bread-compact-esp32.zip"
+    },
+    {
+      "id": "bread-compact-esp32-128x32",
+      "board": "bread-compact-esp32",
+      "target": "esp32",
+      "name": "bread-compact-esp32-128x32",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-esp32-128x32.zip",
+      "sha256": "5030e69f60a6c2947bea234cefaf8eda3f0c0a61cea3c179373d52add8776ef8",
+      "bytes": 1536039,
+      "mirror": "v2.5.0_bread-compact-esp32-128x32.zip"
+    },
+    {
+      "id": "bread-compact-esp32-lcd",
+      "board": "bread-compact-esp32-lcd",
+      "target": "esp32",
+      "name": "bread-compact-esp32-lcd",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_bread-compact-esp32-lcd.zip",
+      "sha256": "7acd6212290109f7d3e8a802114eea38e1806a9a1f1eae077b1b092d5ff74706",
+      "bytes": 1559409,
+      "mirror": "v2.5.0_bread-compact-esp32-lcd.zip"
+    },
+    {
+      "id": "espressif-esp-hi",
+      "board": "espressif/esp-hi",
+      "target": "esp32c3",
+      "name": "esp-hi",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-hi.zip",
+      "sha256": "ef43f0ec3f0cf5f3aed492b50b4dcec0564afe8c05d3b04d842346e7b87cfa7f",
+      "bytes": 1689934,
+      "mirror": "v2.5.0_espressif-esp-hi.zip"
+    },
+    {
+      "id": "espressif-esp-sensairshuttle",
+      "board": "espressif/esp-sensairshuttle",
+      "target": "esp32c5",
+      "name": "esp-sensairshuttle",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-sensairshuttle.zip",
+      "sha256": "ed68d1ec8fa23e350fbf15075e701653fa8145a704e145eb5952c38a38162427",
+      "bytes": 2797870,
+      "mirror": "v2.5.0_espressif-esp-sensairshuttle.zip"
+    },
+    {
+      "id": "espressif-esp-spot-c5",
+      "board": "espressif/esp-spot",
+      "target": "esp32c5",
+      "name": "esp-spot-c5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp-spot-c5.zip",
+      "sha256": "096ccedab1400ddcdc9335add2bdf841e27bc763e998db1e4eb993d356ca3cb7",
+      "bytes": 1556374,
+      "mirror": "v2.5.0_espressif-esp-spot-c5.zip"
+    },
+    {
+      "id": "espressif-esp32-p4-function-ev-board",
+      "board": "espressif/esp32-p4-function-ev-board",
+      "target": "esp32p4",
+      "name": "esp32-p4-function-ev-board",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp32-p4-function-ev-board.zip",
+      "sha256": "ffe3259b63958f47f666663c9b79c1457162d06d4d03e2371e5f8e6a8c89eafd",
+      "bytes": 2285549,
+      "mirror": "v2.5.0_espressif-esp32-p4-function-ev-board.zip"
+    },
+    {
+      "id": "espressif-esp32-p4x-function-ev-board",
+      "board": "espressif/esp32-p4-function-ev-board",
+      "target": "esp32p4",
+      "name": "esp32-p4x-function-ev-board",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_espressif-esp32-p4x-function-ev-board.zip",
+      "sha256": "cb03d7e8e0d13c2baa4b9f0505c57cf07e80d11bf21aa1ac1bc5ba4650790fdc",
+      "bytes": 2295207,
+      "mirror": "v2.5.0_espressif-esp32-p4x-function-ev-board.zip"
+    },
+    {
+      "id": "folotoy-ai-passport",
+      "board": "folotoy/ai-passport",
+      "target": "esp32c3",
+      "name": "ai-passport",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_folotoy-ai-passport.zip",
+      "sha256": "00f9b9e0c7c01d211051b351b8da00f98d452867878998f6ef6ecd23f116506a",
+      "bytes": 2226409,
+      "mirror": "v2.5.0_folotoy-ai-passport.zip"
+    },
+    {
+      "id": "kevin-c3",
+      "board": "kevin/c3",
+      "target": "esp32c3",
+      "name": "kevin-c3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_kevin-c3.zip",
+      "sha256": "6ea9163afeb58b1b953feed254d84c6cd5db303d55f27273e1117a50c4e87d70",
+      "bytes": 1421502,
+      "mirror": "v2.5.0_kevin-c3.zip"
+    },
+    {
+      "id": "lckfb-lichuang-c3-dev",
+      "board": "lckfb/szpi-esp32c3",
+      "target": "esp32c3",
+      "name": "lichuang-c3-dev",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_lckfb-lichuang-c3-dev.zip",
+      "sha256": "2c3d782cffbde9415091ce62628d20f79f8721d1c8f626d5fab878a29441e040",
+      "bytes": 2328746,
+      "mirror": "v2.5.0_lckfb-lichuang-c3-dev.zip"
+    },
+    {
+      "id": "m5stack-atommatrix-echo-base",
+      "board": "m5stack/atommatrix-echo-base",
+      "target": "esp32",
+      "name": "atommatrix-echo-base",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-atommatrix-echo-base.zip",
+      "sha256": "78028f43d65bfc58db3c216e6329d2a5378340fa0455706f1625d1fd8b951cf8",
+      "bytes": 1341331,
+      "mirror": "v2.5.0_m5stack-atommatrix-echo-base.zip"
+    },
+    {
+      "id": "m5stack-corep4",
+      "board": "m5stack/corep4",
+      "target": "esp32p4",
+      "name": "m5stack-corep4",
+      "asset": null,
+      "sha256": null,
+      "bytes": null,
+      "mirror": null
+    },
+    {
+      "id": "m5stack-corep4x",
+      "board": "m5stack/corep4",
+      "target": "esp32p4",
+      "name": "m5stack-corep4x",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-corep4x.zip",
+      "sha256": "c655950efe47b10180358206ed5313e0a581e5c9a082dfebb5b1a77ee86b5875",
+      "bytes": 3355745,
+      "mirror": "v2.5.0_m5stack-corep4x.zip"
+    },
+    {
+      "id": "m5stack-tab5",
+      "board": "m5stack/tab5",
+      "target": "esp32p4",
+      "name": "m5stack-tab5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-tab5.zip",
+      "sha256": "20e21c75ca178fd09314f90f06693d5ff453e216ec489d637cb792b0644089b3",
+      "bytes": 3447421,
+      "mirror": "v2.5.0_m5stack-tab5.zip"
+    },
+    {
+      "id": "m5stack-tab5-p4x",
+      "board": "m5stack/tab5",
+      "target": "esp32p4",
+      "name": "m5stack-tab5-p4x",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_m5stack-tab5-p4x.zip",
+      "sha256": "147e46d73a025d77f2d847dc29a448ac822074b360d15d4b6be8fc51b0cdc2bb",
+      "bytes": 3458734,
+      "mirror": "v2.5.0_m5stack-tab5-p4x.zip"
+    },
+    {
+      "id": "magiclick-c3",
+      "board": "magiclick/c3",
+      "target": "esp32c3",
+      "name": "magiclick-c3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_magiclick-c3.zip",
+      "sha256": "a0a178564cff260aef03c5d5d49734d0a6c20ea9a6492b648b6474efbe469781",
+      "bytes": 2044346,
+      "mirror": "v2.5.0_magiclick-c3.zip"
+    },
+    {
+      "id": "magiclick-c3-v2",
+      "board": "magiclick/c3-v2",
+      "target": "esp32c3",
+      "name": "magiclick-c3-v2",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_magiclick-c3-v2.zip",
+      "sha256": "8bc681ddb17f30addbf655f8a45827814c162bdea2dd604cf47fd4c305639e2c",
+      "bytes": 2044672,
+      "mirror": "v2.5.0_magiclick-c3-v2.zip"
+    },
+    {
+      "id": "movecall-moji2-esp32c5",
+      "board": "movecall/moji2-esp32c5",
+      "target": "esp32c5",
+      "name": "movecall-moji2-esp32c5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_movecall-moji2-esp32c5.zip",
+      "sha256": "3131fc7a6253f13f8ed8fc4347e72850a5b3ccfefc4a7b6be6fd195d841d0f89",
+      "bytes": 2476325,
+      "mirror": "v2.5.0_movecall-moji2-esp32c5.zip"
+    },
+    {
+      "id": "surfer-c3-1.14tft",
+      "board": "surfer-c3-1.14tft",
+      "target": "esp32c3",
+      "name": "surfer-c3-1.14tft",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_surfer-c3-1.14tft.zip",
+      "sha256": "2d74b437e67a3134efecf22a43c6ff64da4f5af4f9afb428c58d3c8ef01f9207",
+      "bytes": 2343900,
+      "mirror": "v2.5.0_surfer-c3-1.14tft.zip"
+    },
+    {
+      "id": "waveshare-esp32-c5-touch-lcd-1.69",
+      "board": "waveshare/esp32-c5-touch-lcd-1.69",
+      "target": "esp32c5",
+      "name": "esp32-c5-touch-lcd-1.69",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c5-touch-lcd-1.69.zip",
+      "sha256": "48133e2e814746000eb2bd31a84f599e54cee21dbb7c8d511193972bf38cccfa",
+      "bytes": 2467559,
+      "mirror": "v2.5.0_waveshare-esp32-c5-touch-lcd-1.69.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-epaper-1.54",
+      "board": "waveshare/esp32-c6-epaper-1.54",
+      "target": "esp32c6",
+      "name": "esp32-c6-epaper-1.54",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-epaper-1.54.zip",
+      "sha256": "ece1bf1c75746af9de2cd2dcf8865ace4bedb4662561f6eda295f66f370357e2",
+      "bytes": 2391110,
+      "mirror": "v2.5.0_waveshare-esp32-c6-epaper-1.54.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-lcd-0.85",
+      "board": "waveshare/esp32-c6-lcd-0.85",
+      "target": "esp32c6",
+      "name": "esp32-c6-lcd-0.85",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-lcd-0.85.zip",
+      "sha256": "d57af0d7a6f290a3909ab3fd5dd5b6a4f516cad1f375bef9c16010dbb5c18555",
+      "bytes": 2246859,
+      "mirror": "v2.5.0_waveshare-esp32-c6-lcd-0.85.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-lcd-1.69",
+      "board": "waveshare/esp32-c6-lcd-1.69",
+      "target": "esp32c6",
+      "name": "esp32-c6-lcd-1.69",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-lcd-1.69.zip",
+      "sha256": "4c28ea7d70a64dc9562cc2e22014b6ef70b855f1620db9495ded322927bca317",
+      "bytes": 2485011,
+      "mirror": "v2.5.0_waveshare-esp32-c6-lcd-1.69.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-touch-amoled-1.32",
+      "board": "waveshare/esp32-c6-touch-amoled-1.32",
+      "target": "esp32c6",
+      "name": "esp32-c6-touch-amoled-1.32",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-touch-amoled-1.32.zip",
+      "sha256": "c47b45d6eab942f10d81ec88cc5906a8c999d5d0dc4213a36b8f1cfbe04f1879",
+      "bytes": 2427108,
+      "mirror": "v2.5.0_waveshare-esp32-c6-touch-amoled-1.32.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-touch-amoled-1.43",
+      "board": "waveshare/esp32-c6-touch-amoled-1.43",
+      "target": "esp32c6",
+      "name": "esp32-c6-touch-amoled-1.43",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-touch-amoled-1.43.zip",
+      "sha256": "0bfff2fa9e14b3b08440218191e6ecf257feddc9759fcce77fd6d4ce26400779",
+      "bytes": 2907832,
+      "mirror": "v2.5.0_waveshare-esp32-c6-touch-amoled-1.43.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-touch-amoled-1.8",
+      "board": "waveshare/esp32-c6-touch-amoled-1.8",
+      "target": "esp32c6",
+      "name": "esp32-c6-touch-amoled-1.8",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-touch-amoled-1.8.zip",
+      "sha256": "fc4f3d34f97b5f77c1a6f85d550b3ae35c342bcabd834f729a0c1beea6b231ac",
+      "bytes": 2909778,
+      "mirror": "v2.5.0_waveshare-esp32-c6-touch-amoled-1.8.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-touch-amoled-2.06",
+      "board": "waveshare/esp32-c6-touch-amoled-2.06",
+      "target": "esp32c6",
+      "name": "esp32-c6-touch-amoled-2.06",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-touch-amoled-2.06.zip",
+      "sha256": "27ca893adf62b07074fabce5b687a9a5f73a719a201969908a67360b3bf5c03f",
+      "bytes": 2907879,
+      "mirror": "v2.5.0_waveshare-esp32-c6-touch-amoled-2.06.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-touch-amoled-2.16",
+      "board": "waveshare/esp32-c6-touch-amoled-2.16",
+      "target": "esp32c6",
+      "name": "esp32-c6-touch-amoled-2.16",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-touch-amoled-2.16.zip",
+      "sha256": "9f6919df33c03c8d06436c9d33ceae1288b37a3762ffc72a8d5e7e2a0371bd3e",
+      "bytes": 2911062,
+      "mirror": "v2.5.0_waveshare-esp32-c6-touch-amoled-2.16.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-touch-lcd-1.54",
+      "board": "waveshare/esp32-c6-touch-lcd-1.54",
+      "target": "esp32c6",
+      "name": "esp32-c6-touch-lcd-1.54",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-touch-lcd-1.54.zip",
+      "sha256": "2ac0d3bf1c5d9284b1e8be03d7b6f45501f9aaac6f5abf1c92ebc403b32d785c",
+      "bytes": 2490315,
+      "mirror": "v2.5.0_waveshare-esp32-c6-touch-lcd-1.54.zip"
+    },
+    {
+      "id": "waveshare-esp32-c6-touch-lcd-1.83",
+      "board": "waveshare/esp32-c6-touch-lcd-1.83",
+      "target": "esp32c6",
+      "name": "esp32-c6-touch-lcd-1.83",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-c6-touch-lcd-1.83.zip",
+      "sha256": "24436626af376c835ff07e89d9a48bb8dc7ee1ee3407764468edfb7cecd7040f",
+      "bytes": 2179509,
+      "mirror": "v2.5.0_waveshare-esp32-c6-touch-lcd-1.83.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-nano-10.1-a",
+      "board": "waveshare/esp32-p4-nano",
+      "target": "esp32p4",
+      "name": "esp32-p4-nano-10.1-a",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-nano-10.1-a.zip",
+      "sha256": "af75467767c62f785f13b481c7b079d4b4b95c172b0cc89640054bb71dfa62d8",
+      "bytes": 3407522,
+      "mirror": "v2.5.0_waveshare-esp32-p4-nano-10.1-a.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-nano-10.1-a",
+      "board": "waveshare/esp32-p4-nano",
+      "target": "esp32p4",
+      "name": "esp32-p4x-nano-10.1-a",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-nano-10.1-a.zip",
+      "sha256": "5939c26681ac134e6285267fc63d9eef253c8107f0f6e9df95529bcc7607c488",
+      "bytes": 3417933,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-nano-10.1-a.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-10.1",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-10.1",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-10.1.zip",
+      "sha256": "a01972960c4d0764b39d0af65e14f156d091c1c049e7669a67ea972f4b74a303",
+      "bytes": 3411892,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-10.1.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-3.4c",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-3.4c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-3.4c.zip",
+      "sha256": "eaa4e4decd9a0dee363800555de6f4a0f2051a1d40a3d71c662afbf9383c9deb",
+      "bytes": 3411900,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-3.4c.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-4.3",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-4.3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-4.3.zip",
+      "sha256": "acf662ceb2400dff12c3b2d6cf557bdd8094145aa880f6be8bc7427778f8c7ed",
+      "bytes": 3422957,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-4.3.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-4b",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-4b",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-4b.zip",
+      "sha256": "0a93949fe3e57cefc48c112ba3147f8a295083e263bc2a729561344624d543f4",
+      "bytes": 3413866,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-4b.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-4c",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-4c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-4c.zip",
+      "sha256": "8c5a2b31cbffab18707f78b1791d1beb77f2c34d197d74faa8ad0213b41d3672",
+      "bytes": 3411889,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-4c.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-5",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-5.zip",
+      "sha256": "d986601d1806ce16568b6b5e9b37027ed0eb8f3e82c64c24b0f92d147aa59c90",
+      "bytes": 3416358,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-5.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-7",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-7",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-7.zip",
+      "sha256": "030fa66815d21e45a911900af675c5a0defada85b9fd319cabf12f8b5db28db3",
+      "bytes": 3411892,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-7.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-7b",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-7b",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-7b.zip",
+      "sha256": "696e2288d948c049409b48ff2886b994db812fc0899c04dd0ecaad92316dfdc0",
+      "bytes": 3414597,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-7b.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-8",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-8",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-8.zip",
+      "sha256": "c38f607852e92b28bf63aab698c60af85fa782d19d87a3abca53477b483b2b75",
+      "bytes": 3411741,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-8.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-10.1",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-10.1",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-10.1.zip",
+      "sha256": "ec719bc35ab7e00e8c89ed66bb1492f58e9b1e7412f3488f8f41b2c8f08cd9db",
+      "bytes": 3424789,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-10.1.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-3.4c",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-3.4c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.4c.zip",
+      "sha256": "53fff1a9746668e63ca00184c4a01c11205a5719f2c78e5bd0bbd5db0f75a345",
+      "bytes": 3424750,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.4c.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-4.3",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-4.3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-4.3.zip",
+      "sha256": "5f099e5bb34aafd1c25683303ef9448a0b7077e1e4731bf37b34154d9113183c",
+      "bytes": 3432380,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-4.3.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-4b",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-4b",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-4b.zip",
+      "sha256": "58244b001c6252f508ae553d08d1b0e8e079debf1be1175822825121ef7296e4",
+      "bytes": 3425658,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-4b.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-4c",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-4c",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-4c.zip",
+      "sha256": "95701b19f28215eb6a0e3740f973256eb8d2cf55ca333598c838564d21a4e5ec",
+      "bytes": 3424554,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-4c.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-5",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-5.zip",
+      "sha256": "b81d61ec95642e5c9c0e5f16c2687b9247e903f55a47a4b0a5dd7c0b8a907cf4",
+      "bytes": 3427607,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-5.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-7",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-7",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-7.zip",
+      "sha256": "23d44fe7aa6e53692ca6d69d44e1459af9ba430248d4e32ba60245a65f9c919d",
+      "bytes": 3424827,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-7.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-7b",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-7b",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-7b.zip",
+      "sha256": "1781f4cc053d2e54db3656b35bb4bc662b9bf9671e185a6cef5263c3b151e031",
+      "bytes": 3424734,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-7b.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-8",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-8",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-8.zip",
+      "sha256": "28c3db30f68c9c33ef8298c31ab53ecd82d5fa165595e05142736f99eea48ebb",
+      "bytes": 3424253,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-8.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4-wifi6-touch-lcd-3.5",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd-3.5",
+      "target": "esp32p4",
+      "name": "esp32-p4-wifi6-touch-lcd-3.5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-3.5.zip",
+      "sha256": "61bb4bfffd79cba6eaa340701fe30c8bcdd2e9f5642ef0077dad1136a3c31cd4",
+      "bytes": 3424422,
+      "mirror": "v2.5.0_waveshare-esp32-p4-wifi6-touch-lcd-3.5.zip"
+    },
+    {
+      "id": "waveshare-esp32-p4x-wifi6-touch-lcd-3.5",
+      "board": "waveshare/esp32-p4-wifi6-touch-lcd-3.5",
+      "target": "esp32p4",
+      "name": "esp32-p4x-wifi6-touch-lcd-3.5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.5.zip",
+      "sha256": "8903b0cc10c62923b76f31c7120a232f918013d0ffe68288da81a9f0c89e61c8",
+      "bytes": 3434850,
+      "mirror": "v2.5.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.5.zip"
+    },
+    {
+      "id": "waveshare-esp32-touch-lcd-3.5",
+      "board": "waveshare/esp32-touch-lcd-3.5",
+      "target": "esp32",
+      "name": "esp32-touch-lcd-3.5",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_waveshare-esp32-touch-lcd-3.5.zip",
+      "sha256": "00016fdf09fde3ef7a22835cd59fa142ed11cbaf6eb27bc4a11995625c3cd214",
+      "bytes": 2059405,
+      "mirror": "v2.5.0_waveshare-esp32-touch-lcd-3.5.zip"
+    },
+    {
+      "id": "wdmomo-esp32-cgc",
+      "board": "wdmomo/esp32-cgc",
+      "target": "esp32",
+      "name": "esp32-cgc",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_wdmomo-esp32-cgc.zip",
+      "sha256": "606f8ecccc7927b11e5e6cc6c7428e4fc79644a4b5d94a7a9e6028dbc51fd721",
+      "bytes": 1559712,
+      "mirror": "v2.5.0_wdmomo-esp32-cgc.zip"
+    },
+    {
+      "id": "wdmomo-esp32-cgc-144",
+      "board": "wdmomo/esp32-cgc-144",
+      "target": "esp32",
+      "name": "esp32-cgc-144",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_wdmomo-esp32-cgc-144.zip",
+      "sha256": "476ab58d20bedebce94a69f46dd4b58b2772489df8e2d94901dd49898b8eb43c",
+      "bytes": 1564380,
+      "mirror": "v2.5.0_wdmomo-esp32-cgc-144.zip"
+    },
+    {
+      "id": "xmini-c3",
+      "board": "xmini/c3",
+      "target": "esp32c3",
+      "name": "xmini-c3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_xmini-c3.zip",
+      "sha256": "a889d0a9721e80bcd125bf578616a2f67bdb09d44150721c4052db94582df990",
+      "bytes": 1644065,
+      "mirror": "v2.5.0_xmini-c3.zip"
+    },
+    {
+      "id": "xmini-c3-4g",
+      "board": "xmini/c3-4g",
+      "target": "esp32c3",
+      "name": "xmini-c3-4g",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_xmini-c3-4g.zip",
+      "sha256": "a4e3e3384bf0abe29fec7d4223a06dfb123f1bfc24b251534a6db50aaa9fd87a",
+      "bytes": 1118026,
+      "mirror": "v2.5.0_xmini-c3-4g.zip"
+    },
+    {
+      "id": "xmini-c3-v3",
+      "board": "xmini/c3-v3",
+      "target": "esp32c3",
+      "name": "xmini-c3-v3",
+      "asset": "https://github.com/78/xiaozhi-esp32/releases/download/v2.5.0/v2.5.0_xmini-c3-v3.zip",
+      "sha256": "dd5a415fef171fb6a0ae35bacb152c4bdaa5c60cfac2315e067bb1f459774549",
+      "bytes": 1648440,
+      "mirror": "v2.5.0_xmini-c3-v3.zip"
+    }
+  ]
+}

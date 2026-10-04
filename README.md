@@ -18,6 +18,6 @@
 
 有 Python 3 的维护者可在上游发布新版后运行 `python3 update_catalog.py --boards-dir /path/to/xiaozhi-esp32/main/boards`，它从 GitHub Release API 和本地小智板级配置重新生成 `catalog.json`。运行时站点没有此依赖。
 
-`.github/workflows/pages.yml` 在 GitHub Actions 中运行 `mirror_releases.py`，逐一核对官方 ZIP 的大小和 SHA-256 后上传 Pages artifact；无需 IDF 或本地构建。`main` 分支推送后触发，也可手动运行。部署地址以本仓库的 Pages 部署结果为准。Pages 提供 Web Serial 所需的 HTTPS 安全上下文。
+`.github/workflows/pages.yml` 在 GitHub Actions 中运行 `mirror_releases.py`，逐一核对官方 ZIP 的大小和 SHA-256 后上传 Pages artifact；无需 IDF 或本地构建。`main` 分支推送后触发，也可手动运行。网页地址：<https://gh.bhee.online/esp32-web-flasher/>。请使用 HTTPS 地址，以便浏览器开放 Web Serial。Pages 提供 Web Serial 所需的 HTTPS 安全上下文。
 
 第三方浏览器依赖固定在 `vendor/`：Espressif `esptool-js` 0.6.1（Apache-2.0）、`fflate` 0.8.2（MIT）、`spark-md5` 3.0.2（WTFPL）。更新时应核对 npm 包校验和并同步许可证。

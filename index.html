@@ -14,7 +14,7 @@
     <header class="masthead">
       <div class="eyebrow">XIAOZHI · ESP32 WEB FLASHER</div>
       <h1>ESP32 Web Flasher · 小智固件</h1>
-      <p>选择小智板型和固件，连接已进入下载模式的 ESP32。ESP32-S3 板型优先显示。</p>
+      <p>选择小智板型和固件，通过 Web Serial 连接 ESP32。ESP32-S3 板型优先显示。</p>
     </header>
 
     <div id="support" class="notice" role="status">正在检查浏览器支持情况…</div>
@@ -44,7 +44,8 @@
     <section class="card" aria-labelledby="device-title">
       <div class="step">03 / 设备</div>
       <h2 id="device-title">连接 ROM 下载器</h2>
-      <p>使用 USB 数据线连接目标板，并让它进入 ROM 下载模式。可选择原生 USB Serial/JTAG 或板载 USB 转串口端口。</p>
+      <p>使用 USB 数据线连接目标板。默认通过串口控制线尝试自动进入 ROM 下载模式；若板子不支持自动复位，请手动进入下载模式后选择手动连接。</p>
+      <label class="field" for="connect-mode">连接方式<select id="connect-mode"><option value="default_reset">自动复位进入下载模式</option><option value="no_reset">已手动进入下载模式</option></select></label>
       <button id="connect" type="button">选择串口设备</button>
       <button id="disconnect" type="button" class="secondary" disabled>断开</button>
       <output id="device-info" class="details">未连接设备</output>

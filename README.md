@@ -7,7 +7,7 @@
 `catalog.json` 从小智上游 `main/boards/**/config.json` 生成，包含 182 个构建选项；当前快照匹配 [官方 v2.5.0 发布](https://github.com/78/xiaozhi-esp32/releases/tag/v2.5.0)中的 180 个 ZIP。ESP32-S3 优先展示。Pages 构建会下载这 180 个公开 ZIP、核对官方 SHA-256，并作为同源静态文件发布（合计约 458 MiB）。选择板型后可直接在网页加载官方整机镜像；也可下载 ZIP、本机选择整机合并 `.bin` 或纯应用 `.bin`。
 
 1. 核对实际硬件板型，在网页中选择对应构建选项。相同芯片的不同板型不可互换。
-2. 将设备置于 ROM download mode，连接 USB 数据线。选择原生 USB Serial/JTAG 或板载 USB 转串口。网页与 ROM 握手后核对芯片型号、闪存容量。
+2. 连接 USB 数据线，选择原生 USB Serial/JTAG 或板载 USB 转串口。默认由 DTR/RTS 尝试自动进入 ROM download mode；没有自动复位电路时，手动进入下载模式并选择手动连接。网页与 ROM 握手后核对芯片型号、闪存容量。
 3. 直接加载官方发布版，或选择官方 ZIP / 本机 `.bin`。网页识别整机或纯应用镜像，检查芯片 ID、应用描述符、项目名及 RLCD 板型标记。整机从 `0x0` 写入；纯应用按所选板型官方发布镜像内的分区表选择 `ota_0`、`ota_1` 或 factory，默认 `ota_0`，并检查分区容量。写后核对设备返回的 MD5。
 
 网页目前支持 `esptool-js` 0.6.1 可识别的 ESP32、ESP32-S3、ESP32-C3、ESP32-C5、ESP32-C6 和 ESP32-P4。目录中 4 个 **ESP32-S31** 构建选项会显示，但连接和刷写已禁用：上游 [esptool-js #248](https://github.com/espressif/esptool-js/issues/248) 仍缺 S31 识别和刷写支持，会把它误判为 P4。不能把它计入已可刷写的板型。其他芯片只有静态镜像校验；实体刷写优先从 RLCD S3 验证，不能仅凭目录和代码认为所有设备都已验收。

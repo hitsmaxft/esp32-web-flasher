@@ -44,8 +44,9 @@
     <section class="card" aria-labelledby="device-title">
       <div class="step">03 / 设备</div>
       <h2 id="device-title">连接 ROM 下载器</h2>
-      <p>使用 USB 数据线连接目标板。默认通过串口控制线尝试自动进入 ROM 下载模式；若板子不支持自动复位，请手动进入下载模式后选择手动连接。</p>
-      <label class="field" for="connect-mode">连接方式<select id="connect-mode"><option value="default_reset">自动复位进入下载模式</option><option value="no_reset">已手动进入下载模式</option></select></label>
+      <p>选择连接方式后，通过 Web Serial 连接 ESP32 ROM 下载器。</p>
+      <label class="field" for="connect-mode">连接方式<select id="connect-mode"><option value="default_reset">板载 / 原生 USB 串口 · DTR/RTS 自动复位</option><option value="no_reset">板载 / 原生 USB 串口 · 手动进入下载模式</option><option value="usb2uart">USB2UART（WCH CH340 / CH341 等）· 手动进入下载模式</option></select></label>
+      <p id="uart-guide" class="hint" hidden>使用 USB2UART 时，需由用户自行先让目标板进入 ROM 下载模式，网页不会切换 DTR/RTS。将适配器 TX 接目标板下载串口 RX、RX 接下载串口 TX，GND 共地，并确认目标板供电及串口电平匹配。按目标板说明操作 BOOT 和 RESET 后再连接。</p>
       <button id="connect" type="button">选择串口设备</button>
       <button id="disconnect" type="button" class="secondary" disabled>断开</button>
       <output id="device-info" class="details">未连接设备</output>

@@ -8,7 +8,7 @@ const ui = {
   agree: $("agree"), progress: $("progress"), status: $("status"), log: $("log"),
   image: $("image-info"), device: $("device-info"), support: $("support"),
   appTargetField: $("app-target-field"), appTarget: $("app-target"), address: $("address-info"),
-  connectMode: $("connect-mode"),
+  connectMode: $("connect-mode"), uartGuide: $("uart-guide"),
 };
 let catalog = null;
 let appOffsets = null;
@@ -40,7 +40,7 @@ function updateButtons() {
   const plan = currentFlashPlan();
   ui.search.disabled = busy;
   ui.board.disabled = busy;
-  ui.connectMode.disabled = busy;
+  ui.connectMode.disabled = busy || !!port;
   ui.file.disabled = busy || !supported;
   ui.online.disabled = busy || !supported || !profile.asset;
   ui.connect.disabled = busy || !!loader || !supported || !("serial" in navigator);
@@ -159,6 +159,11 @@ ui.board.addEventListener("change", () => {
   profile = catalog.profiles.find((item) => item.id === ui.board.value) ?? null;
   renderProfile();
 });
+ui.connectMode.addEventListener("change", () => {
+  const uart = ui.connectMode.value === "usb2uart";
+  ui.uartGuide.hidden = !uart;
+  ui.connect.textContent = uart ? "选择 USB2UART 串口" : "选择串口设备";
+});
 
 async function loadImage(input, filename, selectedProfile) {
   if (selectedProfile.mirror && filename === selectedProfile.mirror) {
@@ -227,15 +232,19 @@ ui.online.addEventListener("click", async () => {
 
 ui.connect.addEventListener("click", async () => {
   if (!profile || !CHIPS[profile.target]) return;
+  const uart = ui.connectMode.value === "usb2uart";
+  const resetMode = uart ? "no_reset" : ui.connectMode.value;
   busy = true;
   updateButtons();
   try {
     port = await navigator.serial.requestPort();
     const info = port.getInfo();
-    line(`已选择串口：USB VID ${info.usbVendorId?.toString(16) ?? "未知"} / PID ${info.usbProductId?.toString(16) ?? "未知"}`);
+    const vid = info.usbVendorId?.toString(16).padStart(4, "0") ?? "未知";
+    const pid = info.usbProductId?.toString(16).padStart(4, "0") ?? "未知";
+    const adapter = uart && info.usbVendorId === 0x1a86 ? " · WCH USB 转串口" : "";
+    line(`已选择${uart ? "USB2UART" : "板载 / 原生"}串口：USB VID ${vid} / PID ${pid}${adapter}`);
     transport = new Transport(port, false);
     loader = new ESPLoader({ transport, baudrate: 115200, terminal, debugLogging: false });
-    const resetMode = ui.connectMode.value;
     status(resetMode === "default_reset" ? "正在自动复位并与 ROM 下载器握手…" : "正在与已进入下载模式的 ROM 握手…", "working");
     await loader.main(resetMode);
     connectedChip = loader.chip?.CHIP_NAME;
@@ -246,12 +255,14 @@ ui.connect.addEventListener("click", async () => {
     const match = /^(\d+)(MB|KB)$/.exec(detected ?? "");
     if (!match) throw new Error(`无法可靠识别闪存容量：${detected ?? "未知"}`);
     flashBytes = Number(match[1]) * (match[2] === "MB" ? 1048576 : 1024);
-    ui.device.textContent = `${connectedChip} · ${detected} flash · USB VID ${info.usbVendorId?.toString(16) ?? "未知"}`;
+    ui.device.textContent = `${connectedChip} · ${detected} flash · ${uart ? "USB2UART" : "板载 / 原生 USB"} · VID ${vid} / PID ${pid}${adapter}`;
     status(`${connectedChip} 下载器已连接，闪存 ${detected}`, "ready");
   } catch (error) {
-    const hint = ui.connectMode.value === "default_reset"
+    const hint = resetMode === "default_reset"
       ? "若板子无法自动进入下载模式，请按住 BOOT、按一下 RESET，再选“已手动进入下载模式”重试。"
-      : "请核对串口和下载模式，并确认没有其他程序占用端口。";
+      : uart
+        ? "请核对 TX/RX 是否交叉、GND 是否共地、目标板供电和下载模式，并确认没有其他程序占用端口。"
+        : "请核对串口和下载模式，并确认没有其他程序占用端口。";
     status(`连接失败：${error.message}。${hint}`, "error");
     try { await closePort(); } catch (closeError) { line(`端口关闭失败：${closeError.message}`); }
   } finally {
@@ -309,7 +320,7 @@ if (!("serial" in navigator) || !window.isSecureContext) {
   ui.support.textContent = "当前浏览器不支持安全上下文中的 Web Serial。请使用桌面版 Chrome 或 Edge 打开 HTTPS 页面。";
   ui.support.dataset.kind = "error";
 } else {
-  ui.support.textContent = "浏览器支持 Web Serial。可自动复位连接，或手动进入 ROM 下载模式。";
+  ui.support.textContent = "浏览器支持 Web Serial。可使用板载串口或 WCH 等 USB 转 UART 适配器。";
 }
 try {
   const response = await fetch("./catalog.json");
